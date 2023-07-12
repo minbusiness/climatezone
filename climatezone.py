@@ -13,7 +13,7 @@ from dash import no_update
 app = dash.Dash(__name__)
 
 # REVIEW1: Clear the layout and do not display exception till callback gets executed
-app.config.suppress_callback_exceptions = True
+#app.config.suppress_callback_exceptions = True
 
 # Read the airline data into pandas dataframe
 airline_data =  pd.read_csv('https://cf-courses-data.s3.us.cloud-object-storage.appdomain.cloud/IBMDeveloperSkillsNetwork-DV0101EN-SkillsNetwork/Data%20Files/airline_data.csv', 
